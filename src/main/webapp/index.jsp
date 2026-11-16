@@ -4,6 +4,7 @@
 <form action="student" method="post">
     Name: <input type="text" name="name"><br><br>
     Course: <input type="text" name="course"><br><br>
+    Email: <input type="text" name="email"><br><br>
     <input type="submit" value="Submit">
 </form>
 </body>
