@@ -15,10 +15,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-</project>
-
-
-<build>
+         <build>
     <finalName>student-app</finalName>
 
     <plugins>
@@ -29,5 +26,9 @@
         </plugin>
     </plugins>
 </build>
+</project>
+
+
+
 
 
