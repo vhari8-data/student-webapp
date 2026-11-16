@@ -13,6 +13,7 @@ public class StudentServlet extends HttpServlet {
 
         req.setAttribute("name", name);
         req.setAttribute("course", course);
+        req.setAttribute("email", email);
 
         req.getRequestDispatcher("result.jsp").forward(req, resp);
     }
