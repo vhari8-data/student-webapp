@@ -10,6 +10,7 @@ public class StudentServlet extends HttpServlet {
 
         String name = req.getParameter("name");
         String course = req.getParameter("course");
+        String email = req.getParameter("email");        
 
         req.setAttribute("name", name);
         req.setAttribute("course", course);
